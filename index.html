@@ -12,7 +12,7 @@
   </head>
   <body class="page">
     <header class="header__width">
-      <div class="header">
+      <div class="header container">
       <div class="header__icon-text">
         <img
           class="header__icon"
@@ -74,7 +74,7 @@
       </div>
     </header>
     <main class="main">
-      <article class="article__header">
+      <section class="article__header container">
         <img
           class="article__header-img"
           src="./image/bird.png"
@@ -83,7 +83,7 @@
         <div class="article__content">
           <h2 class="article__content-title">
             Реплики картин от
-            <p class="header__text">Ink. House</p>
+            <span class="header__text">Ink. House</span>
           </h2>
           <p class="article__content-text">
             Высокое качество отрисовки на плотной бумаге или льняном холсте.
@@ -91,8 +91,8 @@
           </p>
           <button class="article__content-button">Продукция</button>
         </div>
-      </article>
-      <div class="article__card-title">
+      </section>
+      <div class="article__card-title container">
           <h3 class="card__title">Репродукции</h3>
           <div class="card__title-button">
             <button class="card__title-button-item">Франция</button>
@@ -100,7 +100,7 @@
             <button class="card__title-button-item">Англия</button>
           </div>
         </div>
-      <article class="article__card">
+      <section class="article__card container">
         <div class="card">
           <img class="card__img" src="./image/01.jpg" loading="lazy" />
           <div class="card__description-picture">
@@ -161,8 +161,9 @@
             <button class="card__shop-button">В корзину</button>
           </div>
         </div>
-      </article>
-      <article class="content">
+      </section>
+      <section class="content">
+        <div class="content-container container">
         <div class="content__title">
           <img class="content__title-img"
           src="./image/Star 2.png" loading="lazy"
@@ -182,8 +183,9 @@
         <button class="content__button">
           Ознакомиться
         </button>
-      </article>
-      <article class="team"> 
+        </div>
+      </section>
+      <section class="team container"> 
         <img class="team__img"
         src="./image/Group 210.png" loading="lazy">
         <div class="team__description">
@@ -202,9 +204,10 @@
           src="./image/ellipse3.jpg" loading="lazy">
           </div>
         </div>
-      </article>
-      <footer class="footer">
-        <div class="footer__container">
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
           <div class="footer__container-left">
             <div class="footer-left">
             <img
@@ -223,6 +226,7 @@
             </p>
           </div>
           </div>
+          <div class="footer-center">
           <div class="footer__container-menu">
             <div class="menu">
               <div class="menu__title">
@@ -285,7 +289,7 @@
             </div>
           </div>
         </div>
+        </div>
       </footer>
-    </main>
   </body>
 </html>

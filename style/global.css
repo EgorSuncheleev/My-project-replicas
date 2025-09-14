@@ -47,3 +47,15 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 39px;
+  }
+}

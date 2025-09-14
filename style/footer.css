@@ -1,0 +1,101 @@
+/* footer */
+
+.footer {
+  width: 100%;
+  background-color: #E1EDE6;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0;
+}
+
+.footer__container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--fonts-color);
+}
+
+.footer__container-number {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.footer__number-text {
+  font-size: 18px;
+  color: var(--main-fonts-color);
+}
+
+.footer__container-menu {
+  display: flex;
+  gap: 60px;
+  margin-right: 250px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu__title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--main-fonts-color);
+}
+
+.footer__container-web {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__container-web-puctire {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__container-reserv {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--main-fonts-color);
+}
+/* footer */
+
+@media (max-width: 768px) {
+
+
+  .footer__container-left {
+    display: flex;
+    flex-direction: column;
+  }
+}

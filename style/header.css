@@ -1,0 +1,82 @@
+
+.header__width {
+  padding: 31px;
+  background-color: #E1EDE6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header__icon-text {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--fonts-color);
+}
+
+.header__list-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  font-family: "Raleway", sans-serif;
+  color: var(--main-fonts-color);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header__list-link {
+  cursor: pointer;
+  color: #2C2D35;
+}
+
+/*  Псведоклассы  */
+
+.header__list-link:hover {
+  color: #598D66;
+  transition: 0.5s ease-in-out;
+}
+
+.header__list-link:focus {
+  color: #2C2D35;
+  background-color: #D4E8D9;
+  transition: 0.5s ease-in-out;
+}
+
+.header__list-link:active {
+  color: #376B44;
+  transition: 0.5s ease-in-out;;
+}
+
+.header__link-item-fill {
+  stroke: #2C2D35;
+}
+
+.header__link-item-fill:hover {
+  stroke: #598D66;
+  transition: 0.2s ease-in-out;
+}
+
+.header__link-item-fill:focus {
+  background-color: #D4E8D9;
+}
+
+.header__link-item-fill:active {
+  stroke: #376B44;
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  
+  .header__width {
+    padding: 39px;
+  }
+
+}
