@@ -63,3 +63,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 510px) {
+  .content {
+    height: 410px;
+  }
+}

@@ -77,3 +77,31 @@
   margin: 20px 0 40px 0;
 }
 }
+
+@media (max-width: 510px) {
+        .article__header-img {
+        width: 195px;
+        height: 239px;
+    }
+
+    .article__content {
+        width: 285px;
+    }
+
+    .article__content-title {
+  font-size: 36px;
+}
+
+.article__content-button {
+  padding: 14px 41px;
+}
+
+.article__content-text {
+        margin: 10px 0;
+    }
+
+
+  .article__header {
+    padding: 50px 0;
+  }
+}
